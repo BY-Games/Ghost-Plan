@@ -16,4 +16,4 @@ The challenges in Ghost Plan include navigating through complex dialogues with a
 Overall, Ghost Plan is a unique game that provides an immersive experience for players. With its complex dialogues, mysterious clues, and difficult challenges, players will feel as though they are part of the movie "The Sixth Sense". The game is perfect for anyone who loves solving puzzles and unraveling mysteries.
 
 ## Credits
-Child-Support Game was developed by [Yosef](https://github.com/YosefKahlon) and [Barak](https://github.com/barakdf).
+Ghost-Plan Game was developed by [Yosef](https://github.com/YosefKahlon) and [Barak](https://github.com/barakdf).
