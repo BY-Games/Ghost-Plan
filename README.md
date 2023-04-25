@@ -1,6 +1,9 @@
 # Ghost-Plan
 Thriller Puzzle game inspired by The Sixth Sense movie.
 
+# Play the Game
+[Play](https://by-games.itch.io/ghost-plan)
+
 ## Overview
 Ghost Plan is a video game inspired by the movie "The Sixth Sense". The game puts the player in the shoes of a curious 8-year-old boy who is able to see and communicate with ghosts. The game's main objective is to help these ghosts "complete unsolved problems" they have left in the world so that they can move on to the next world.
 
