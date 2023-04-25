@@ -7,9 +7,11 @@ public class AdultDetector : MonoBehaviour
     // Start is called before the first frame update
     [SerializeField] private float direction;
     private void OnTriggerEnter2D(Collider2D other) {
-        if(other.gameObject.tag == "Adult") {
-            Debug.Log("changing direction");
-            other.gameObject.GetComponent<Mover>().SetVelocity(-1);
+        Debug.Log("changing direction");
+        if(other.gameObject.tag == "Bound") {
+                    Debug.Log("changing direction");
+
+            gameObject.GetComponent<Mover>().SetVelocity(-1);
         }
     }
 }

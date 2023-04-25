@@ -15,15 +15,7 @@ public class InputManager : MonoBehaviour
 
     private static InputManager instance;
 
-    [SerializeField] InputAction continueDialog = new InputAction(type: InputActionType.Button);
 
-    private void OnEnable() {
-        continueDialog.Enable();
-    }
-
-    private void OnDisable() {
-        continueDialog.Disable();
-    }
     private void Awake()
     {
         if (instance != null)
@@ -38,18 +30,7 @@ public class InputManager : MonoBehaviour
         return instance;
     }
 
- 
-    public void InteractButtonPressed(InputAction.CallbackContext context)
-    {
-        if (context.performed)
-        {
-            interactPressed = true;
-        }
-        else if (context.canceled)
-        {
-            interactPressed = false;
-        } 
-    }
+
 
     public void SubmitPressed(InputAction.CallbackContext context)
     {
